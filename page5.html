@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Feed back </title>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #2821ad;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #2821ad;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+
+#grad1 {
+  height: 150px;
+  width: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: radial-gradient(red, yellow, green);
+}
+</style>
+</head>
+<body>
+
+
+
+<div>
+  <form action="/action_page.php">
+    <label for="fname">Enter Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Yazan abo alwafa">
+
+    <label for="lname">Feed back </label>
+    <input type="text" id="lname" name="lastname" placeholder="write feed back">
+
+    
+    </select>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+<p id="rcorners2">Good by friend</p>
+<h1>Radial Gradient - Evenly Spaced Color Stops</h1>
+
+<div id="grad1"></div>
+
+</body>
+</html>
+
+

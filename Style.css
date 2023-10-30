@@ -1,0 +1,123 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0%;
+  margin: 0%;
+
+
+}
+nav { font-weight: bold;
+    color: white;
+    border: 2px solid RoyalBlue;
+    text-align: center;
+    width: 14em;
+    background-color: RoyalBlue; }
+
+nav ul { display: none;
+       list-style: none;
+       margin: 0;
+       padding:0; }
+
+nav:hover ul    { display: block;}
+nav ul li  { border-top: 2px solid RoyalBlue;
+           background-color:burlywood;
+           width: 10em;
+           color:black; }
+
+a   { text-decoration: none;}
+
+.continer {
+  width:80%;
+  margin-right:50px;
+  overflow:hidden;
+  margin: auto;
+}
+
+
+
+ul{
+  margin-top: 10px;
+  margin-left:2px;
+  
+}
+
+header{
+  background-color:dimgrey;
+  color:aliceblue;
+  padding-top: 20px;
+  border-bottom:black 10px solid ;
+}
+
+header a{
+  color:black;
+  text-decoration: none;
+  font-weight: 900;  
+  font-size: x-large;
+  transition: 0.5s;
+}
+
+header li{
+  float:right;
+  display: inline;
+  padding:0 30px 0 30px;
+  
+}
+
+header #brand{
+  float: left;
+  color:black;
+  margin-left:2% ;
+  text-shadow: 0 0 3px #183f69
+}
+
+header nav{
+  float:right;
+  margin-top:20px;
+  margin-right: 1%;
+  
+
+}
+
+header .curent a {
+    
+     color:black;
+     font-weight: 900;  
+     font-size: x-large;
+     transition: 0.5s;      
+}
+
+header a:hover{
+  color:darkcyan;
+}
+
+#img {
+  min-height: 500px;
+  background-image: url(Picture/Cover\ picture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#form{
+  
+  
+  padding:30px;
+  
+}
+
+section h1{
+  text-align: center;
+}
+
+section form{
+  text-align: center;
+}
+
+#box{
+  margin-top:15px;
+}
+
+#box .boxs{
+  float:right;
+  text-align: center;
+  width: 30%;
+  padding:10px;
+}
